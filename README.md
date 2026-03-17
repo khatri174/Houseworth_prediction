@@ -50,6 +50,67 @@ houseworth/
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/khatr
+git clone https://github.com/khatri174/Houseworth_prediction.git
+cd Houseworth_prediction
 ```
+
+### 2️⃣ Create virtual environment
+
+```
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3️⃣ Install dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 4️⃣ Run the application
+
+```
+python app.py
+```
+
+### 5️⃣ Open in browser
+
+```
+http://127.0.0.1:5000/
+```
+
+---
+
+## 📊 Machine Learning Workflow
+
+* Data Collection & Cleaning
+* Exploratory Data Analysis (EDA)
+* Feature Scaling (MinMaxScaler)
+* Model Training
+* Model Saving using Joblib
+* Deployment using Flask
+
+
+
+---
+
+## 💡 Future Improvements
+
+* Add more advanced ML models
+* Improve UI/UX
+* Deploy on cloud (Render / AWS)
+* Add user authentication
+
+---
+
+## 👨‍💻 Author
+
+**Akshay Khatri**
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub!
+
 
